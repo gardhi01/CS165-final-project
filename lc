@@ -1,0 +1,7 @@
+#!/bin/bash
+if [ "$#" -ne 2 ]
+then 
+echo "lc file1 file2"
+else
+captolow < $1 > $2
+fi
