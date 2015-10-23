@@ -1,6 +1,6 @@
 #include "getc.h"
 
-char getcap(char c) {
+char getc(char c) {
 
    if (c >= 'A' && c <= 'Z')
 
